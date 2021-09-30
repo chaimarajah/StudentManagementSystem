@@ -1,4 +1,20 @@
+function deposit (amount) {
+    this.balance=this.balance + amount;
+    return this.balance;
+}
+function withdraw(amount) {
+    this.balance=this.balance - amount;
+    return this.balance
 
-var Student=['yahbous']
-console.log(student)
-student.push('eya')
+
+
+}
+function makeAccount(balance) {
+return{
+     balance: initial,
+     withdraw,
+     deposit
+}
+
+}
+var account= makeAccount (100)
